@@ -66,22 +66,6 @@ export const RegisterForm = ({ user }: { user: User }) => {
             console.log(error);
         }
 
-        try {
-            const user = {
-                name: values.name,
-                email: values.email,
-                phone: values.phone,
-            };
-
-            const newUser = await createUser(user);
-
-            if (newUser) {
-                router.push(`/patients/${newUser.$id}/register`);
-            }
-        } catch (error) {
-            console.log(error);
-        }
-
         setIsLoading(false);
     };
     return (
