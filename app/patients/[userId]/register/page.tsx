@@ -33,7 +33,7 @@ const Register = async ({ params: { userId } }: SearchParamProps) => {
                 alt="register image"
                 width={1000}
                 height={1000}
-                className="size-img max-w-[390px]"
+                className="size-img max-w-[390px] md:block hidden"
             />
         </div>
     )
