@@ -35,7 +35,7 @@ export default function Home({ searchParams }: SearchParamProps) {
         alt="patient"
         width={1000}
         height={1000}
-        className="size-img max-w-[50%]"
+        className="size-img max-w-[50%] md:block hidden"
       />
     </div>
   );
