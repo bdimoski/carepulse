@@ -34,7 +34,7 @@ export default async function NewAppointment({ params: { userId } }: SearchParam
                 alt="appointment"
                 width={1000}
                 height={1000}
-                className="size-img max-w-[390px] bg-bottom"
+                className="size-img max-w-[390px] md:block hidden bg-bottom"
             />
         </div>
     );
